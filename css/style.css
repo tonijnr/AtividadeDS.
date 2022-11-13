@@ -1,0 +1,126 @@
+body {
+    background-image:url("../img/dark-wood.jpg");
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+}
+
+#wrapper {
+    background-color: white;
+    width: 940px;
+    margin: 25px auto;
+    border: 2px solid black;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    height: 144px;
+    position: relative;
+}
+
+header .hgroup {
+    display: none;
+}
+
+nav { 
+    background-color: #adaca8;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+nav ul {
+    padding: 10px 0px 10px 25px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 650px;
+    float: left;
+    border-right: 1px solid lightgray;
+}
+
+article {
+    overflow: auto;
+}
+
+article figure {
+    float: left;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 20px;
+    font: italic smaller sans-serif;
+    
+}
+
+article figure figcaption {
+    text-align: left;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    color: #343434;
+}
+
+article h2 {
+    font-size: 24px;
+    color: #636363
+}
+
+article h3 {
+    font-size: 18px;
+    color: #e04871;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+article .hgroup {
+    margin-top: 35px;
+}
+
+aside {
+    width: 255px;
+    float: left;
+    padding: 0px 10px;
+}
+
+aside  h2 {
+    font-size: 24px;
+    color: #e04871;
+    padding: 35px 0px 20px;
+}
+
+aside  .popular-recipes li {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+aside  .popular-recipes li:hover {
+    background-color: #eee;
+}
+
+aside  .popular-recipes li a {
+    text-decoration: none;
+    color: #e04871;
+}
+
+aside  .popular-recipes li a:hover {
+    color: #985d6a;
+}
+
+footer {
+    clear: both;
+    background-color: #adaca8;
+    padding: 10px 25px;
+    color: white;
+}
